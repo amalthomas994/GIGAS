@@ -1,0 +1,8 @@
+prefix=/home/ros/catkin_ws/devel
+
+Name: fanuc_m20ia_support
+Description: Description of fanuc_m20ia_support
+Version: 0.5.1
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
