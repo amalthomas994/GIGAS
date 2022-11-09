@@ -1,0 +1,4 @@
+#!/bin/bash
+
+./render_plan_kinematic problems/reacher.xml plan.out 
+

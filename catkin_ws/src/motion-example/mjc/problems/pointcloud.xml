@@ -1,0 +1,5 @@
+<mujoco model="pointcloud">
+        <body name="pcloud" pos="0.5 0 0.2" quat="0 0 0.015 1">
+            <geom type="mesh" contype="0" conaffinity="0" group="1" rgba="0.9 0.239216 0.239216 1" mesh="pc" name="pc_visual"/>
+        </body>        
+</mujoco>

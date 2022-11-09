@@ -1,0 +1,7 @@
+# format: []
+planner: sst
+sst_selection_radius: 0.005
+sst_pruning_radius: 0.002
+
+start: [-0.5, 0]
+goal: [0.5, 0]

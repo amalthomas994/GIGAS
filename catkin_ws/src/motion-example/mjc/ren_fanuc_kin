@@ -1,0 +1,4 @@
+#!/bin/bash
+
+./render_plan_kinematic problems/robot.xml plan.out 
+

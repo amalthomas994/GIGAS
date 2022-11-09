@@ -1,0 +1,5 @@
+#!/bin/bash
+
+./plan_kinematic /home/ros/catkin_ws/src/motion-example/mjc/problems/robot.xml /home/ros/catkin_ws/src/motion-example/mjc/problems/fanuc_prob.yaml 
+
+

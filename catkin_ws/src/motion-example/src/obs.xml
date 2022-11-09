@@ -1,0 +1,29 @@
+<mujoco model="environment">
+    <body name="target" pos="0.81 0 0.7">
+        <geom rgba="0.2 0.939216 0.239216 1" contype="0" conaffinity="0" size="0.03" type="sphere" />
+    </body>
+    <body name="obstacle8" pos="0.5 -0.2 0.4">
+        <geom rgba="0.59 0.44 0.50 1" size="0.03" type="sphere" />
+    </body>
+    <body name="obstacle1">
+        <geom fromto="0.81 0 0.7 0.81 0 0.8" rgba="0.59 0.44 0.50 1" size="0.01" type="cylinder" />
+    </body>
+    <body name="obstacle2">
+        <geom fromto="0.81 0.1 0.8 0.81 -0.7 0.8" rgba="0.59 0.44 0.50 1" size="0.01" type="cylinder" />
+    </body>
+    <body name="obstacle3">
+        <geom fromto="0.7 0.2 0.9 0.6 -0.4 0.6" rgba="0.59 0.44 0.50 1" size="0.01" type="cylinder" />
+    </body>
+    <body name="obstacle4" pos="0.5 0.2 0.6">
+        <geom rgba="0.59 0.44 0.50 1" size="0.03" type="sphere" />
+    </body>
+    <body name="obstacle5" pos="0.5 0.4 0.4">
+        <geom rgba="0.59 0.44 0.50 1" size="0.03" type="sphere" />
+    </body>
+    <body name="obstacle6" pos="0.2 0.2 0.4">
+        <geom rgba="0.59 0.44 0.50 1" size="0.03" type="sphere" />
+    </body>
+    <body name="obstacle7" pos="0.2 -0.2 0.4">
+        <geom rgba="0.59 0.44 0.50 1" size="0.03" type="sphere" />
+    </body>
+</mujoco>

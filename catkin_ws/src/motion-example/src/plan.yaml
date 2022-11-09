@@ -1,0 +1,60 @@
+name: Environment1
+
+planner: rrt
+range: 0.2
+
+target:
+  type: sphere
+  #position: x (from front of robot rest forward), y (from side to right)
+  position: 0.4 -0.4 0.41676
+  orientation: 0 0 0
+  size: 0.03
+  rgba: 0.2 0.939216 0.239216 1
+
+# obstacle1:
+#   type: cylinder
+#   from: 0.35 -0.55 0.428
+#   to: 0.39 -0.37 0.475
+#   size: 0.01
+  
+# obstacle2:
+#   type: cylinder
+#   from: 0.45 -0.55 0.5
+#   to: 0.49 -0.39 0.51
+#   size: 0.01
+
+# obstacle3:
+#   type: cylinder
+#   from: 0.40 -0.55 0.6
+#   to: 0.40 -0.39 0.62
+#   size: 0.01
+
+# obstacle4:
+#   type: sphere
+#   position: 0.5 0.2 0.6
+#   orientation: 1 1 1 1
+#   size: 0.03
+  
+# obstacle5:
+#   type: sphere
+#   position: 0.5 0.4 0.4
+#   orientation: 1 1 1 1
+#   size: 0.03
+
+# obstacle6:
+#   type: sphere
+#   position: 0.2 0.2 0.4
+#   orientation: 1 1 1 1
+#   size: 0.03
+
+# obstacle7:
+#   type: sphere
+#   position: 0.2 -0.2 0.4
+#   orientation: 1 1 1 1
+#   size: 0.03
+
+# obstacle8:
+#   type: sphere
+#   position: 0.5 -0.2 0.4
+#   orientation: 1 1 1 1
+#   size: 0.03

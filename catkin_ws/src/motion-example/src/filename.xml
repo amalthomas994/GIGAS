@@ -1,0 +1,1 @@
+<mujoco model="obstacles"><body euler="0 0 0" name="body1" pos="0 0 0"><geom rgba="0.59 0.44 0.50 1" size="0.15 0.7 0.2" type="sphere" /></body><body euler="0 0 0" name="body2" pos="0 0 0"><geom rgba="0.59 0.44 0.50 1" size="0.15 0.7 0.2" type="sphere" /></body></mujoco>

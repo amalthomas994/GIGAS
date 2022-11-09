@@ -1,0 +1,6 @@
+Fri Jul  8 15:59:31 2022
+WARNING: Nan, Inf or huge value in QVEL at DOF 3. The simulation is unstable. Time = 0.0000.
+
+Sat Jul  9 18:17:43 2022
+WARNING: Unknown warning type Time = 0.1900.
+

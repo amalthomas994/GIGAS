@@ -1,0 +1,1 @@
+<mujoco model="environment"><body name="target" pos="0.4 -0.4 0.41676"><geom conaffinity="0" contype="0" rgba="0.2 0.939216 0.239216 1" size="0.03" type="sphere" /></body></mujoco>

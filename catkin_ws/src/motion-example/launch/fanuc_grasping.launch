@@ -1,0 +1,17 @@
+<launch>
+  <!-- Connect to Arduino -->
+  <node name="serial_node" pkg="rosserial_python" type="serial_node.py" respawn="true" output="screen">
+      <param name="port" value="/dev/ttyACM0" />
+  </node>
+
+  <!-- load the robot_description parameter before launching ROS-I nodes -->
+  <include file="$(find custom_fanuc_w_suction_moveit_config)/launch/moveit_planning_execution.launch" >
+    <arg name="sim" value="false"/>
+    <arg name="robot_ip" value="10.34.7.1" />
+  </include>
+
+  <include file="$(find realsense2_camera)/launch/rs_camera.launch">
+    <arg name="enable_pointcloud" value="true"/>
+  </include>
+
+</launch>

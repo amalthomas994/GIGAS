@@ -1,0 +1,5 @@
+#!/bin/bash
+
+./plan_kinematic problems/reacher.xml problems/reacher_prob.yaml 
+
+
